@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  background-color: #121212;
+  color: #eee;
+  margin: 0;
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+}
+/* Make the SVG responsive */
+svg {
+  display: block;
+  margin: auto;
+  background-color: #121212;
+  border: 1px solid #444;
+  width: 100%; /* Take full width of container */
+  height: auto; /* Height will scale automatically to maintain aspect ratio */
+}
+/* Tooltip styling */
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 8px;
+  background: rgba(50, 50, 50, 0.9);
+  color: #fff;
+  border: 1px solid #555;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  font-size: 0.9em;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: clamp(1rem, 6vw, 2rem);
+}
